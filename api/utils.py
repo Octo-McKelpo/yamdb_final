@@ -1,7 +1,6 @@
 from django.core.mail import send_mail
 from django.conf import settings as sett
 
-
 CONFIRMATION_CODE_LEN = 7
 
 
