@@ -1,2 +1,1 @@
-# yamdb_final
-yamdb_final
+https://github.com/octomckelpo/yamdb_final/workflows/Django-app%20yamdb_workflow.yaml/badge.svg
