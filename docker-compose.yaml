@@ -35,7 +35,6 @@ services:
       - media_value:/var/html/media/
 
     depends_on:
-      # Контейнер nginx должен быть запущен после контейнера web
       - web
 
 volumes:
