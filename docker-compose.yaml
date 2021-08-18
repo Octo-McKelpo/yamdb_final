@@ -42,6 +42,5 @@ services:
 
 volumes:
   postgres_data:
-  # Добавляем новые тома 
   static_value:
   media_value:
