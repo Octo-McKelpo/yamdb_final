@@ -1,5 +1,5 @@
 FROM python:3.8.5
-RUN workdir /code
+WORKDIR /code
 COPY requirements.txt .
 RUN pip3 install -r /code/requirements.txt
 COPY . /code
