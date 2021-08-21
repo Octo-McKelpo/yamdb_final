@@ -133,8 +133,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static/'),)
-
 
 AUTH_USER_MODEL = 'api.User'
 
@@ -170,3 +168,5 @@ AUTHENTICATION_BACKENDS = (
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = os.path.join(BASE_DIR, 'sent_emails')
 EMAIL_ADMIN = 'admin@yamdb.ru'
+
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
